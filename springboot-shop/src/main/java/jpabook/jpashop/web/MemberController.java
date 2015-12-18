@@ -21,7 +21,7 @@ public class MemberController {
 
     @RequestMapping(value = "/members/new", method = RequestMethod.GET)
     public String createForm() {
-        return "members/createMemberForm";
+        return "/members/createMemberForm";
     }
 
     @RequestMapping(value = "/members/new", method = RequestMethod.POST)
